@@ -1,5 +1,5 @@
-### Apocalypse Together
-## Setup
+## Apocalypse Together
+### Setup
 Clone the project by running
 ```
 git clone https://github.com/degraffa/ApocalypseTogether.git
