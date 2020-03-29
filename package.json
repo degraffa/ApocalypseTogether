@@ -8,6 +8,7 @@
     },
     "author": "Bowden Kelly",
     "license": "MIT",
+    "pirvate": true,
     "scripts": {
         "start": "npm run serve",
         "build": "npm run build-sass && npm run build-ts && npm run lint && npm run copy-static-assets",
@@ -27,6 +28,7 @@
         "watch-debug": "concurrently -k -p \"[{name}]\" -n \"Sass,TypeScript,Node\" -c \"yellow.bold,cyan.bold,green.bold\" \"npm run watch-sass\" \"npm run watch-ts\" \"npm run serve-debug\""
     },
     "dependencies": {
+        "@types/three": "^0.103.2",
         "async": "^3.1.0",
         "bcrypt-nodejs": "^0.0.3",
         "bluebird": "^3.5.5",
@@ -48,6 +50,9 @@
         "passport-facebook": "^3.0.0",
         "passport-local": "^1.0.0",
         "pug": "^2.0.4",
+        "save-dev": "0.0.1-security",
+        "three": "^0.115.0",
+        "ts-loader": "^6.2.2",
         "winston": "^3.2.1"
     },
     "devDependencies": {
@@ -66,7 +71,7 @@
         "@types/express-session": "^1.15.14",
         "@types/jest": "^24.0.23",
         "@types/jquery": "^3.3.31",
-        "@types/lodash": "^4.14.141",
+        "@types/lodash": "^4.14.149",
         "@types/lusca": "^1.6.1",
         "@types/mongoose": "^5.5.18",
         "@types/node": "^12.7.8",
@@ -83,16 +88,20 @@
         "@types/winston": "^2.4.4",
         "@typescript-eslint/eslint-plugin": "^2.3.1",
         "@typescript-eslint/parser": "^2.3.1",
+        "acorn": "^7.1.1",
         "chai": "^4.2.0",
         "concurrently": "^5.0.0",
         "eslint": "^6.4.0",
         "jest": "^24.9.0",
         "node-sass": "^4.13.0",
         "nodemon": "^1.19.2",
+        "parcel-bundler": "^1.12.4",
         "shelljs": "^0.8.3",
         "supertest": "^4.0.2",
         "ts-jest": "^24.1.0",
         "ts-node": "^8.4.1",
-        "typescript": "^3.6.3"
+        "typescript": "^3.6.3",
+        "webpack": "^4.42.1",
+        "webpack-cli": "^3.3.11"
     }
 }

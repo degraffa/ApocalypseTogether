@@ -22,5 +22,6 @@
   },
   "typescript.referencesCodeLens.enabled": true,
   "appService.zipIgnorePattern": [".vscode{,/**}"],
-  "appService.deploySubpath": ""
+  "appService.deploySubpath": "",
+  "appService.defaultWebAppToDeploy": "/subscriptions/b1041839-2b85-40c7-bea2-5a810b0a973a/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/ApocalypseTogether"
 }

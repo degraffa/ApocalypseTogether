@@ -9,3 +9,4 @@ export const index = (req: Request, res: Response) => {
         title: "Home"
     });
 };
+
