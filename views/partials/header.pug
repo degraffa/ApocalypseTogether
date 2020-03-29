@@ -11,6 +11,9 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top
       ul.nav.navbar-nav.mr-auto
         li.nav-item(class=(title === 'Home') ? 'active' : undefined)
           a.nav-link(href='/') Home
+        if user
+          li.nav-item(calss=(title === 'Characters') ? 'active' : undefined)
+            a.nav-link(href='/characters') Characters
       ul.nav.navbar-nav
         if !user
           li.nav-item(class=(title === 'Login') ? 'active' : undefined)
