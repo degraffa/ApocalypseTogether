@@ -51,7 +51,7 @@
         "passport-local": "^1.0.0",
         "pug": "^2.0.4",
         "save-dev": "0.0.1-security",
-        "three": "^0.115.0",
+        "three": "^0.125.0",
         "ts-loader": "^6.2.2",
         "winston": "^3.2.1"
     },
